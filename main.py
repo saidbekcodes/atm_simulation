@@ -1,23 +1,5 @@
-"""
-ATM (Bankomat) Simulyatsiyasi
--------------------------------
-Bu dastur konsol orqali ishlaydigan oddiy ATM tizimini simulyatsiya qiladi.
-Foydalanuvchi:
-  - PIN kod orqali tizimga kiradi
-  - Balansni ko'radi
-  - Pul yechadi (withdraw)
-  - Pul qo'yadi (deposit)
-  - Tranzaksiyalar tarixini ko'radi
-  - PIN kodni o'zgartiradi
-"""
-
 import datetime
 
-# ---------------------------------------------------
-# "Baza" o'rnida ishlatiladigan lug'at (dictionary).
-# Haqiqiy loyihada bu ma'lumotlar fayl yoki bazada saqlanadi,
-# lekin o'rganish uchun xotirada (RAM) saqlaymiz.
-# ---------------------------------------------------
 accounts = {
     "1111": {
         "name": "Saidbek",
@@ -156,7 +138,6 @@ def main_menu(pin):
 
 
 def main():
-    """Dastur shu yerdan boshlanadi."""
     print("===========================================")
     print("   PDP BANK - ATM tizimiga xush kelibsiz")
     print("===========================================")
