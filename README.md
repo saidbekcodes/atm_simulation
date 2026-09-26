@@ -1,4 +1,4 @@
-ATM (Bankomat) Simulyatsiyasi
+ATM Simulyatsiyasi
 -------------------------------
 Bu dastur konsol orqali ishlaydigan oddiy ATM tizimini simulyatsiya qiladi.
 Foydalanuvchi:
